@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv = findViewById(R.id.tv);
-        vlab.tech.hcm.MainActivity.getDistance(0,0,0,0);
+        vlab.tech.hcm.MainActivity.Plus(1,2);
         tv.setText("heheh");
 //        Log.d("hehe", String.valueOf(distance));
     }
