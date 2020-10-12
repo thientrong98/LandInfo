@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.tv);
         float distance = vlab.tech.hcm.MainActivity.getDistance(0,0,0,0);
         tv.setText("heheh");
-        Log.d("hehe", String.valueOf(distance));
+//        Log.d("hehe", String.valueOf(distance));
     }
 }
