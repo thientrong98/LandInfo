@@ -1,0 +1,3 @@
+include ':HCM'
+include ':app'
+rootProject.name = "LandInfo"
